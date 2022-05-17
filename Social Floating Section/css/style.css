@@ -1,0 +1,41 @@
+body{
+    height: 2000px;
+}
+.social{
+    position: fixed;
+    left: 0;
+}
+.social a{ 
+    position: relative;
+    display: block;
+    background-color: antiquewhite;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    left: -175px;
+    transition: 0.7s;
+}
+.social a > i{
+    padding: 10px;
+    float: right;
+    font-size: 20px;
+    color: white;
+}
+.social a:nth-child(1){
+    background-color: #4CAF50;
+}
+.social a:nth-child(2){
+    background-color: #2196F3;
+}
+.social a:nth-child(3){
+    background-color: #F44336;
+}
+.social a:nth-child(4){
+    background-color: #555555;
+}

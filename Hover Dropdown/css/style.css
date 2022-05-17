@@ -1,0 +1,43 @@
+*{
+    box-sizing: content-box;
+}
+button{
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    width: 200px;
+}
+.dropdown{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    transition: 0.7s;
+}
+.dropdown:hover{
+    text-decoration: underline;
+    background-color: rgb(207, 41, 41);
+    
+}
+ul{
+    display: none;
+    list-style-type: none;
+    background-color: #eee;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    transition: 0.7s;
+}
+ul li{
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #333;
+}

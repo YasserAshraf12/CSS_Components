@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+.button-group
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    box-shadow: 8px 8px 0 rgb(122, 122, 122);
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    border: 2px solid black;
+}
+.fill-styled{
+    text-shadow: 2px 2px 4px white;
+    transition: all 1s;
+}
+.fill-styled:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 0 rgb(122, 122, 122);
+}
+
+/* left to right Fill */
+.fill-left{
+    background: linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    text-shadow: 2px 2px 4px white;
+}
+.fill-left:hover{
+    background-position: left bottom;
+    color: white;
+}
+/*----------------------------------------*/
+
+/* right to left  fill */
+
+.fill-right{
+    background: linear-gradient(to left, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+    text-shadow: 2px 2px 4px white;
+}
+.fill-right:hover{
+    background-position: right bottom;
+    color: white;
+}
+/*--------------------------------------------*/
+
+/* top to bottom  fill */
+
+.fill-top{
+    background: linear-gradient(to bottom, black 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: bottom;
+    transition: all .5s ease-out;
+    text-shadow: 2px 2px 4px white;
+}
+
+.fill-top:hover{
+    background-position: top;
+    color: white;
+}
+/*--------------------------------------------*/
+
+/* bottom to top  fill */
+
+.fill-bottom{
+    background: linear-gradient(to top, black 50%, white 50%);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: all .5s ease-out;
+    text-shadow: 2px 2px 4px white;
+}
+
+.fill-bottom:hover{
+    background-position: bottom;
+    color: white;
+}
+/*--------------------------------------------*/
+
+
+.fill-second-styled{
+    border: 2px solid black;
+    transition: all .5s ease-out;
+}
+
+.fill-second-styled:hover{
+    box-shadow: none;
+    transform: skew(21deg);
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+
+/*--------------------------------------------*/

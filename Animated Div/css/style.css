@@ -1,0 +1,19 @@
+.container{
+    background-color:#1abc9c;
+    width: 2px;
+    height: 2px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+}
+.container h1 ,p{
+    display: none;
+    line-height: 1.6;
+    color: aliceblue;
+}
+.container > p{
+    font-size: 18px;
+}

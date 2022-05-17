@@ -1,0 +1,56 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 1920px;
+    height: 850px;
+    overflow: hidden;
+}
+.tabcontent{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: relative;
+    text-align: center;
+}
+.tabcontent .caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 2;
+}
+#tabOne{
+    background: #159882;
+}
+#tabTwo{
+    background: #159841;
+}
+#tabThree{
+    background: #459815;
+}
+#tabFour{
+    background: #659888;
+}
+.active{
+    display: block;
+}
+.buttonContainer{
+    width: 100%;
+    height: 98px;
+}
+.buttonContainer .tablink{
+    width: 25.84%;
+    height: 100%;
+    margin-left: -1%;
+    display: inline-block;
+    background-color: rgb(192, 192, 192);
+    border: 0;
+    outline: 0;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+

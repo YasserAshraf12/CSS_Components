@@ -1,0 +1,71 @@
+body{
+    background-color: #333;
+}
+.container{
+    width: 713px;
+    height: 450px;
+    margin: 20px auto;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.container span{
+    position: absolute;
+    background-color: orange;
+    transition: .3s;
+}
+.container .one{
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 0;
+}
+.container .two{
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 0;
+    
+}
+.container .three{
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    transition-delay: .6s;
+}
+.container .four{
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    transition-delay: .6s;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+}
+
+.container:hover .two, .container:hover .one {
+    height: 100%;
+}
+.container:hover .three, .container:hover .four{
+    width: 100%;
+}
+.container:hover img{
+    transition-delay: .95s;
+    opacity: .4;
+}
+.container h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display: none;
+    transition: 1.5s;
+}
+.container:hover h1{
+    display: block;
+}
+    
+

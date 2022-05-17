@@ -1,0 +1,125 @@
+body{
+    width: 1920px;
+    height: 100%;
+    background: linear-gradient(to right, #330066, #ff99cc);
+}
+.sidebar{
+    /*background-color: #bf3a30;
+    background-image: linear-gradient(315deg, #bf3a30 0%, #864ba2 74%);*/
+    background-color: #fff;
+    height: 100%;
+    width: 18%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    color: white;
+    transition: 0.7s;
+}
+.caption{
+    background-color: #F8F9FA;
+    padding: 30px 30px;
+    text-align: center;
+}
+.sidebar .caption h2{
+    color: #b30086;
+    font-family:'Dancing Script' , 'Helvetica', sans-serif;
+    text-shadow: 0 0 8px #fff, 0 0 8px #fff;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+.sidebar .breadcrumb{
+    margin: 0;
+    padding: 20px 20px;
+    text-align: left;
+    color: rgb(155, 150, 150);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    background-color: #F8F9FA;
+    padding: 20px 0;
+}
+
+.menu .list{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.menu .list li{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(32, 32, 32);
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.menu .list li:hover{
+    background-color: rgb(176, 226, 228);
+}
+
+.menu .list li i{
+    color: #5BA9FD;
+    margin-right: 8px;
+    font-size: 20px;
+}
+.social{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+.social .socialLi{
+    list-style-type: none;
+    color: black;
+    width: 100%;
+    padding: 10px;
+}
+.social .socialLi li{
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    margin-right: 20px;
+}
+.social .socialLi li:nth-child(1){
+    color: rgb(44, 134, 230);
+}
+.social .socialLi li:nth-child(2){
+    color: #f09433;
+}
+.social .socialLi li:nth-child(3){
+    color: rgb(44, 134, 230);
+}
+.social .socialLi li:nth-child(4){
+    color: rgb(228, 2, 2);
+}
+.toggleBtn i{
+    margin-right: 5px;
+    float: left;
+}
+.toggleBtn{
+    position: relative;
+    left: 22%;
+    margin-top: 12px;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 35px;
+    box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.678);
+    transition: transform 0.5s ease 0s;
+    transition: margin-left 0.8s;
+    cursor: pointer;
+    outline: none;
+}
+.toggleBtn:hover{
+    transform: translateY(-7px);
+    background-color: #333;
+    color: white;
+}
+.active{
+    margin-left: -22rem;
+}
